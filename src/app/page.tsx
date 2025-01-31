@@ -1,4 +1,3 @@
-'use client'
 import Image from "next/image";
 
 export default function Home() {
@@ -7,18 +6,16 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <h1 className="text-xl">Easy Basics</h1>
         <Image
-              className=""
-              src="/back1.jpeg"
-              alt="Vercel logomark"
-              width={300}
-              height={300}
-            />
-        <ol className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
+          className=""
+          src="/back1.jpeg"
+          alt="Vercel logomark"
+          width={300}
+          height={300}
+        />
+          <h3 className="mb-2">
             You can
-          </li>
-          <li>We'll improve.</li>
-        </ol>
+          </h3>
+          <h3>We'll improve.</h3>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
